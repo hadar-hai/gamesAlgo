@@ -14,7 +14,7 @@ The game unfolds on a 5x5 grid, featuring 2 robots, 2 charging stations, 2 packa
 
 * [Requirements](#requirements)
 * [How to Use](#how-to-use)
-* [Algorithms Explanation](#algortims-explanation)
+* [Algorithms Explanation](#algoritms-explanation)
 * [Examples](#examples)
 * [Acknowledgements](#acknowledgements)
 
