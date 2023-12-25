@@ -6,7 +6,7 @@
 
 #### [Hadar Hai](https://www.linkedin.com/in/hadar-hai/), Technion - Israel Institute of Technology
 
-This codebase is a comprehensive collection of AI algorithms designed to enhance gaming experiences through intelligent decision-making. Included within are implementations of fundamental strategies like Greedy, Minimax, Alpha-Beta Pruning, and Expectimax algorithms. These algorithms serve as powerful tools for creating AI agents capable of making strategic, optimal, and adaptive choices within various game environments.
+This codebase is a comprehensive collection of AI algorithms designed to enhance gaming experiences through intelligent decision-making. Included within are implementations of fundamental strategies like Greedy, Minimax, Alpha-Beta Pruning, and Expectimax algorithms. These algorithms serve as powerful tools for creating AI agents capable of making strategic, optimal, and adaptive choices within a game environment.
 
 The game unfolds on a 5x5 grid, featuring 2 robots, 2 charging stations, 2 packages, and 2 destinations—one for each package. Each robot possesses battery and credit units. The objective is to outscore the opponent by transporting packages to their respective destinations. A robot earns points based on the Manhattan distance multiplied by 2 between a package's original location and its destination upon successful delivery. The game concludes when a robot depletes its battery or reaches the maximum allowed steps. Robots move up, down, left, or right, and can collect, deposit, or charge at stations. Actions like picking up or dropping off packages occur only at valid slots, while any robot can access charging stations.
 
