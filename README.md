@@ -76,12 +76,21 @@ importance to the distance of the robot from package (Closer the better)
 
 ## Greedy Imrpoved
 
+Greedy Improved is a decision-making algorithm that selects the next step based on a sophisticated heuristic function. At each iteration, it picks the move that minimizes the heuristic function, aiming to make locally optimal choices in the immediate decision space.
+
 ## Minimax
+
+Minimax is a decision-making algorithm commonly used in game theory and AI to determine the best move for a player in a turn-based game. It works by evaluating the possible moves of both players, assuming that the opponent will also make optimal moves. The algorithm aims to minimize the potential loss for the worst-case scenario (hence "min") while maximizing the potential gain for the player making the move (hence "max"). By recursively exploring the game's possible future states through a tree-like structure, Minimax computes the best move based on a defined scoring or evaluation function. This algorithm is fundamental in creating intelligent game-playing agents, particularly in scenarios where all possible moves and their outcomes are known.
 
 ## Alpha-Beta
 
+Alpha-Beta pruning is an optimization technique applied to the Minimax algorithm, primarily used in game-playing AI. It works by significantly reducing the number of nodes evaluated in the game tree while maintaining the same optimal move determination as Minimax. By discarding certain branches of the game tree that are deemed irrelevant for the final decision, Alpha-Beta pruning efficiently narrows down the search space. This is achieved by maintaining two values, alpha and beta, representing the best achievable scores for the maximizing and minimizing players, respectively. During the search, when it's identified that a move leads to a situation worse than what's already been found for the opposing player, that branch is pruned, effectively ignoring further exploration along that path. Alpha-Beta pruning can significantly reduce the computation time, especially in complex games, by disregarding futile branches and focusing on the most promising moves, making it an essential optimization for game-playing AI.
+
 ## Expectimax
 
+Expectimax is a probabilistic extension of the Minimax algorithm, often used in decision-making for games or problems involving uncertainty or chance elements. Unlike Minimax, which assumes that opponents make optimal moves, Expectimax considers all possible actions a player can take along with the probabilities associated with those actions. In scenarios where outcomes aren't deterministic, such as in games with random events or incomplete information, Expectimax accounts for the uncertainty by incorporating expected values.
+
+This algorithm evaluates moves by calculating the expected value of each possible action, considering the probabilities of various outcomes occurring. It navigates through the game tree by averaging the possible scores based on the likelihood of each event happening. Expectimax is particularly useful in scenarios where uncertainty or randomness plays a significant role, allowing AI agents to make informed decisions in such stochastic environments, as seen in various games like probabilistic board games or games involving chance elements.
 
 # Examples
 
