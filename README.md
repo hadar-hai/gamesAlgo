@@ -85,7 +85,7 @@ importance to the distance of the robot from package (Closer the better)
 
 # Examples
 
-## Greedy Imrpoved
+## Greedy Improved
 
 
 ![greedyImproved_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/b287b522-2762-4609-a33c-880743279c6e)
