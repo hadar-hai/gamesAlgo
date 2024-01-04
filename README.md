@@ -96,11 +96,11 @@ This algorithm evaluates moves by calculating the expected value of each possibl
 
 ## Greedy Improved
 
-
-![greedyImproved_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/b287b522-2762-4609-a33c-880743279c6e)
-
+![greedy_improved_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/f6ba3213-5eb6-462d-8082-bbc6d66e5b80)
 
 ## Minimax
+
+![minimax_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/df9ca6ef-8df2-4f97-9c73-e677736494d2)
 
 ## Alpha-Beta
 
