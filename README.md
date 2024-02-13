@@ -104,6 +104,8 @@ This algorithm evaluates moves by calculating the expected value of each possibl
 
 ## Alpha-Beta
 
+![alphabeta_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/3a7506e0-31d9-4ec3-a92c-b7813ad96fe8)
+
 ## Expectimax
 
 ![expectimax_random](https://github.com/hadar-hai/gamesAlgo/assets/64587231/fdd8e64d-1290-4413-bdbc-89eae409e51e)
